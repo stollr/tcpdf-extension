@@ -1,4 +1,5 @@
-# TCPDF Extension
+TCPDF Extension
+===============
 
 [TCPDF](http://www.tcpdf.org) is a PHP library to generate PDF documents. It is very
 feature rich, but not easy to use.
@@ -6,11 +7,21 @@ feature rich, but not easy to use.
 This library builds on top of the TCPDF library. At the current state it provides
 only a smart API to **create tables in a comfortable way**.
 
-## Features
+Origin Repository
+-----------------
+
+This repo is a fork of naitsirch/tcpdf-extension. Version `2.0.0` is compatible
+to `1.1.0` except for the directory structure. It now follows the PSR-4 standard.
+
+
+Features
+--------
 
 * More comfortable creation of tables
 
-## Installation
+
+Installation
+------------
 
 The easiest way to use this library is by installing it via
 [Composer](http://getcomposer.org/download/).
@@ -20,14 +31,15 @@ Add this to your project's composer.json:
 ```json
 {
     "require": {
-        "naitsirch/tcpdf-extension": "dev-master"
+        "stollr/tcpdf-extension": "^2.0.0"
     }
 }
 ```
 
-## Usage
+Usage
+-----
 
-### Creating tables
+Creating tables
 
 First you have to create an instance of TCPDF.
 
