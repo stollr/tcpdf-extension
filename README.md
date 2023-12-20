@@ -23,18 +23,10 @@ Features
 Installation
 ------------
 
-The easiest way to use this library is by installing it via
-[Composer](http://getcomposer.org/download/).
+Install the latest version with [Composer](http://getcomposer.org/download/):
 
-Add this to your project's composer.json:
+    composer require stollr/tcpdf-extension
 
-```json
-{
-    "require": {
-        "stollr/tcpdf-extension": "^2.0.0"
-    }
-}
-```
 
 Usage
 -----
